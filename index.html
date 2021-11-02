@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedding Images and Video</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/da7ecc23a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <div class="header">
+            <div class="navbar" id="navbar">
+              <a href="#" class="menu-bars" id="show-menu">
+                <i class="fas fa-bars"></i>
+              </a>
+              <div class="logo" id="logo"><i class="fab fa-youtube fa-3x" id="header-logo"></i><h1>YouTube</h1></div>
+              <div class="search-container">
+                  <form class="search-bar"   action="">
+                      <input type="text" placeholder="Search..." name="search">
+                      <button type="submit"class="search-btn"><i class="fa fa-search"></i></button>
+                  </form>
+              </div>   
+            </div>
+            <nav id="nav-menu">
+                 <ul class="nav-menu-items">
+                     <div class="navbar-toggle">
+                         <a href="" class="menu-bars" id="hide-menu">
+                           <i class="fas fa-bars nav-icon"></i>
+
+                         </a>
+                         <a href="#"><h1><i class="fab fa-youtube" id="youtube-logo"></i>YouTube</h1></a>
+                     </div>
+                     <hr/>
+                     <div class="nav-section">
+                         <li class="nav-text"><a href="#"><i class="fas fa-home nav-icon"></i>Home</a></li>
+                         <li class="nav-text"><a href="#"><i class="fas fa-fire nav-icon"></i>Trending</a></li>
+                         <li class="nav-text"><a href="#"><i class="far fa-compass nav-icon"></i>Explore</a></li>
+                         <li class="nav-text"><a href="#"><i class="fab fa-youtube nav-icon"></i>Subscriptions</a></li>
+                         
+                     </div>
+                     <hr/>
+                     <div class="nav-section">
+                        <li class="nav-text"><a href="#"><i class="far fa-play-circle nav-icon"></i>Library</a></li>
+                        <li class="nav-text"><a href="#"><i class="fas fa-history nav-icon"></i>History</a></li>
+                        <li class="nav-text"><a href="#"><i class="far fa-clock nav-icon"></i>Watch later</a></li>
+                        <li class="nav-text"><a href="#"><i class="far fa-thumbs-up nav-icon"></i>Liked videos</a></li>
+                    </div>
+                 </ul> 
+            </nav>
+           
+           
+            <div class="btn"></div>
+        </div>
+
+        
+        <main class="main-body">
+            
+                <div class="video" id="video">
+                    <div class="body"><iframe width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="video-heading"><h5>Contributing to Open Source Part I: The Easy Way</h5></div>
+                        <div class="views">1kviews <span> 2nd Sep,2021</span>
+                            <div class="icons"></div>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div class="description">
+                        
+                        <div class="content"> <button class="subscription">SUBSCRIBE</button> <h5> The Odin Project
+                            </h5>
+                            <p>
+                                How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open source software projects are typically looking for.  As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails.  You can find more information about that project at http://theodinproject.com.
+                                </p></div>
+                        
+                        
+                        <hr/>
+                        <div class="comment"></div>
+                    </div>
+                </div>
+                
+                <div class="thumbnails" id="thumbnails">
+                    <img src="https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/autumn/autumn-leaves-against-a-blue-sky-photo-andrew-small.jpg" alt="Autumn" width="200">
+                    <img src="https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/autumn/autumn-leaves-against-a-blue-sky-photo-andrew-small.jpg" alt="Autumn" width="200">
+                    <img src="https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/autumn/autumn-leaves-against-a-blue-sky-photo-andrew-small.jpg" alt="Autumn" width="200">
+                    <img src="https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/autumn/autumn-leaves-against-a-blue-sky-photo-andrew-small.jpg" alt="Autumn" width="200">
+                    <img src="https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/autumn/autumn-leaves-against-a-blue-sky-photo-andrew-small.jpg" alt="Autumn" width="200">
+                </div>
+               
+            
+
+        </main>
+    </section>
+   <script src="script.js"></script> 
+</body>
+</html>
